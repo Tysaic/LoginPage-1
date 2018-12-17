@@ -1,0 +1,122 @@
+@import url(c:\Users\isaac.mendez\Documents\Proyectos\web\email-webpage\MainIndex\css\materialize.css);
+body {
+  height: 100%;
+  background-image: url("/MainIndex/media/main-background-0.jpg");
+  background-position: center 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-attachment: scroll;
+  -webkit-transition: background 2s linear;
+  transition: background 2s linear;
+  font-family: Arial;
+  font-weight: 600 !important;
+}
+
+.main-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+#logo {
+  width: 265px;
+  height: 100px;
+}
+
+.send-icon {
+  font-size: 1.7rem !important;
+}
+
+a {
+  color: grey;
+  text-decoration: underline;
+}
+
+#email_error_form {
+  color: #b71c1c;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid grey;
+  box-shadow: 0 1px 0 0 grey;
+  -webkit-box-shadow: 0 1px 0 0 grey;
+}
+
+[type="checkbox"]:checked + span:not(.lever):before {
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+.btn, .btn-large, .btn-small {
+  background-color: grey;
+}
+
+.paragraph-into-container {
+  font-size: 15px;
+}
+
+.input-field:nth-child(3) button, .input-field:nth-child(3) p {
+  display: inline-block;
+  margin: .7em;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+  background-color: #96c346;
+}
+
+.btn-floating {
+  width: 60px;
+  height: 60px;
+}
+
+.btn-floating i {
+  font-size: 2.6rem;
+  line-height: 62px;
+}
+
+.tap-target {
+  background-color: #96c346;
+  color: white;
+}
+
+.btn:focus {
+  background-color: #96c346 !important;
+}
+
+.card {
+  -webkit-box-shadow: 1px 4px 30px -5px black;
+          box-shadow: 1px 4px 30px -5px black;
+}
+
+@media (min-width: 944px) and (max-width: 1439px) {
+  .main-container {
+    width: 60% !important;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .main-container {
+    width: 40% !important;
+  }
+  .main-container .container {
+    width: 65%;
+  }
+}
+
+@media (min-width: 270px) and (max-width: 525px) {
+  #logo {
+    width: 159px;
+    height: 60px;
+  }
+  #main-h1 {
+    font-size: 3.2em;
+  }
+  #main-h2 {
+    font-size: 28px;
+  }
+  .paragraph-into-container {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
